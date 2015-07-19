@@ -89,3 +89,32 @@ ul a:hover {
 	text-decoration: none;
 	   
 }
+
+a:active {
+	color: lightcoral;
+	text-decoration: none;
+}
+
+a:visited {
+	color: lightcoral;
+	text-decoration: none;
+}
+
+a:link {
+	color: lightcoral;
+	text-decoration: none;
+}
+
+hr {
+  border-color: #666666;
+  border-style: solid none;
+  border-width: 1px 0;
+}
+
+hr.main {
+	margin: 20px 0;
+}
+
+hr.cat {
+	margin: 0;
+}
