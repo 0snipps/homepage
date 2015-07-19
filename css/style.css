@@ -1,0 +1,91 @@
+body {
+	background-color: rgb(34,34,34);
+	color: lightcoral;
+	font-family: Roboto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.header {
+	padding-top: 7.5%;
+}
+
+p {
+	margin: 5px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.btn-default {
+	color: lightcoral;
+	border-radius: 0px;
+	background-color: transparent;
+	border: 1px lightcoral solid;
+	text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-left: 5%;
+    margin-right: 5%;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;    
+}
+
+.btn-default:hover {
+	color: white;
+	border-radius: 0px;
+	background-color: transparent;
+	border: 1px white solid;
+	
+}
+
+.buttons {
+	text-align: right;
+	padding: 15px;
+}
+
+.search {
+	font-family: Roboto;
+	width: 80%;
+	padding: 6px 12px;
+}
+
+.go {
+	color: lightcoral;
+	border-radius: 0px;
+	background-color: transparent;
+	border: 1px lightcoral solid;
+	text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    display: inline-block;
+	padding: 6px 12px;
+	margin: 35px;
+}
+
+ul {
+	line-height: 1.75;
+	font-size: 22px;
+	text-align: center;
+	list-style-type: none;
+	padding: 0;
+}
+
+ul a {
+	color: lightcoral;
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+
+}
+
+ul a:hover {
+	color: white;
+	text-decoration: none;
+	   
+}
